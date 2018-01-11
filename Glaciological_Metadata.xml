@@ -1,0 +1,540 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Emily H. Baker (ORCID: 0000-0002-0938-3496)</origin>
+        <origin>Christopher J. McNeil (ORCID: 0000-0003-4170-0428)</origin>
+        <origin>Louis C. Sass (ORCID: 0000-0003-4677-029X)</origin>
+        <origin>Shad O'Neel (ORCID: 0000-0002-9185-0144)</origin>
+        <pubdate>20180101</pubdate>
+        <title>USGS Benchmark Glacier Mass Balance and Project Data: 1966-2016
+</title>
+        <geoform>tabular digital data</geoform>
+        <pubinfo>
+          <pubplace>Anchorage, AK</pubplace>
+          <publish>U.S. Geological Survey, Alaska Science Center</publish>
+        </pubinfo>
+        <onlink> https://doi.org/10.5066/xxxxxxxx</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Emily H. Baker (ORCID: 0000-0002-0938-3496)</origin>
+            <origin>Christopher J. McNeil (ORCID: 0000-0003-4170-0428)</origin>
+            <origin>Louis C. Sass (ORCID: 0000-0003-4677-029X)</origin>
+            <origin>Shad O'Neel (ORCID: 0000-0002-9185-0144)</origin>
+            <pubdate>20180101</pubdate>
+            <title>USGS Benchmark Glacier Mass Balance and Project Data: 1966-2016</title>
+            <geoform>tabular digital data</geoform>
+            <onlink> https://doi.org/10.5066/xxxxxxx</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Since the late 1950s, the USGS has maintained a long-term glacier mass-balance program at three North American glaciers. Measurements began on South Cascade Glacier, WA in 1958, expanding to Gulkana and Wolverine glaciers, AK in 1966, and later Sperry Glacier, MT in 2005. Additional measurements have been made on Lemon Creek and Taku glaciers, AK to compliment data collected by the Juneau Icefield Research Program (JIRP; Pelto et al., 2013). Direct field measurements of point glaciological data are combined with weather and geodetic data to derive glacier-wide seasonal and annual surface mass balance solutions of each glacier in conventional and reference surface formats (Cogley et al., 2011). Additional details on the calculation of glacier-wide surface mass balance is described in Van Beusekom et al. (2010).</abstract>
+      <purpose>The purpose of this project is to quantitatively record changes in mass at specified glaciers over the period of record. Although this data was primarily collected for the purpose of mass balance, there are many other potential uses for this data, including ecological assessments, remote sensing validation, or water resource applications. Data is included as available, though the history of the project. Additional older, undigitized records may be available via digitized scans of field notebooks.</purpose>
+      <supplinf>This data is used to calculate seasonal glacier-wide mass balances, as released in O'Neel et. al (2016): https://doi.org/10.5066/F7HD7SRF.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>
+
+          19700101</begdate>
+          <enddate>
+
+          20170101</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Planned</progress>
+      <update>Annually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-148.95</westbc>
+        <eastbc>-145.33</eastbc>
+        <northbc>63.35</northbc>
+        <southbc>60.35</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>NASA Earth Science Thesaurus</themekt>
+        <themekey>Cryosphere</themekey>
+        <themekey>Glaciers/Ice Sheets</themekey>
+        <themekey>Glaciers</themekey>
+        <themekey>Ablation Zones/Accumulation Zones</themekey>
+        <themekey>Glacier Elevation/Ice Sheet Elevation</themekey>
+        <themekey>Glacier Mass Balance/Ice Sheet Mass Balance</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS CSA Biocomplexity Thesaurus</themekt>
+        <themekey>Glaciology</themekey>
+        <themekey>Geomorphology</themekey>
+        <themekey>Geology</themekey>
+        <themekey>Remote Sensing</themekey>
+      </theme>
+      <place>
+        <placekt/>
+        <placekey/>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>Please cite U.S. Geological Survey/listed authors and give credit for the data. When appropriate, please consider co-authorship with the owners of the database. These data are the result of efforts by many of government and non-government participants in the field, including USGS and various researchers and managers. All publications based on these data should acknowledge all of these efforts. If a publication is based solely on the analysis of this data, we suggest that you involve the authors of this data with the writing and/or review of the manuscript. We would also appreciate receiving notification of any publications or reports that make use of the data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, Alaska Science Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing</addrtype>
+          <address>4210 University Dr.</address>
+          <city>Anchorage</city>
+          <state>AK</state>
+          <postal>99508-4626</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(907) 786-7000</cntvoice>
+        <cntfax>(907) 786 - 7020</cntfax>
+        <cntemail>ascweb@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>We did not conduct any formal attribute accuracy tests. The user must assess these attributes on a case-by-case basis.</attraccr>
+    </attracc>
+    <logic>Data extracted from original, variable legacy formats to released version. If any irregularities are found, please contact the authors for clarification.
+
+    </logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. We include all currently digitized project data; additional information may be available via digital scans of field notebooks.</complete>
+    <posacc/>
+    <lineage>
+      <procstep>
+        <procdesc>Snowpits:
+Samples of snow and ice have been taken with a variety of samplers through the history of the project, as described in the "sampler" column metadata. Sample weight and depth below surface are noted. Weight is measured using a spring scale, and small stuff sack for the sample. Sample depth is taken with a tape measurer in pits, or measured along core, and in coring hole.
+
+Snowdepth:
+Snowdepth is measured by probing undisturbed snow near an ablation stake, or measured in a snow pit or snow core where ice is reached. Strike of the probe against the ice surface can generally be felt. These depths should be used with some caution, and in conjunction with snow depths measured at ablation stakes, as ice lenses within the snowpack may occasionally be mistaken for the glacier surface. In a pit or snow core, the glacier surface is obvious.
+
+Ablation Stake Measurements:
+Metal stakes are installed vertically into the glacier surface at index sites with the use of a steam drill. Stake is labeled with the year in which it is installed, and with marked length increments. Upon subsequent visits to the site, level of snow or ice on the stake is recorded. The absolute value of measurements of stake above surface or below surface are not meaningful. Rather, the change in length above and below surface give either depth of snow accumulation or melt during the interval between measurements. Stakes are labeled with the index site name, and year in which the stake was installed. Stakes are measured for multiple years. They are initially installed up-glacier from the absolute position of the index site, and flow through the site in following years. A single year of measurements at a single index site will comprise measurements from multiple stakes, thereby giving a more representative picture of the mass balance at that site.</procdesc>
+        <srcused>Ostream, G., and M. Brugman (1991), Glacier Mass-Balance Measurements: A Manual for Field and Office Work, Saskatoon, Saskatchewan.</srcused>
+        <procdate>2017</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Glacier_YYYY_MM_DD_Pit_SiteName</enttypl>
+        <enttypd>table</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>sampler </attrlabl>
+        <attrdef>Type of density sampler used</attrdef>
+        <attrdefs> Producer</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>wedge</edomv>
+            <edomvd>Snowmetrics 1000 cc wedge</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Felix</edomv>
+            <edomvd>Felix snow corer (sample length and diameter recorded)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Kovacs</edomv>
+            <edomvd>Kovacs snow corer (sample length and diameter recorded)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>tube</edomv>
+            <edomvd>Norwegian tube, used in pit measurements (41.05cm^2 cross section)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>McCall</edomv>
+            <edomvd>Also known as a "Federal Sampler"; calibrated in design to return snow water equivalent depth.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Spiri</edomv>
+            <edomvd>Older coring device (45.6 cm^2 cross section).</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>sample_weight</attrlabl>
+        <attrdef>Weight of snow sample</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1620</rdommax>
+            <attrunit>grams</attrunit>
+            <attrmres>5</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>sample_bottom_depth</attrlabl>
+        <attrdef>Bottom depth of snow sample</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1250</rdommax>
+            <attrunit>centimeters</attrunit>
+            <attrmres>
+
+            1</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>avg_core_length</attrlabl>
+        <attrdef>Average of 3 measurements, on 3 sides of core</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>90</rdommax>
+            <attrunit>centimeters</attrunit>
+            <attrmres>0.5</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>avg_core_diam</attrlabl>
+        <attrdef>Average of 4 measurements, on 4 opposing sides of core</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>6</rdommin>
+            <rdommax>7.6</rdommax>
+            <attrunit>centimeters</attrunit>
+            <attrmres>0.2</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>comments      </attrlabl>
+        <attrdef>Field notes regarding this sample
+        </attrdef>
+        <attrdefs>User defined</attrdefs>
+        <attrdomv>
+          <udom>Comments regarding the sample, as recorded in the field.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Glacier_raw_snowdepths_pits_probes</enttypl>
+        <enttypd>Comma Separate Value (CSV) file containing data.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>type</attrlabl>
+        <attrdef>Type of measurement used to derive snowdepth.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Pit</edomv>
+            <edomvd>Snow depth measured in snow pit. High confidence.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Probe</edomv>
+            <edomvd>Snow depth measured via snow probe. Occasionally, a hard ice lens within the snowpack may be confused for the surface of the glacier. While much effort is given to avoid this, a few cases may be present.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>near pit</edomv>
+            <edomvd>Probed snow depth near an existing pit; should be examined with the pit-measured depth, with this indicating local variability.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv/>
+            <edomvd/>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>probe</edomv>
+            <edomvd>Snow depth measured via snow probe. Occasionally, a hard ice lens within the snowpack may be confused for the surface of the glacier. While much effort is given to avoid this, a few cases may be present.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Stake</edomv>
+            <edomvd>Snow depth measured on ablation stake, using known position of previous year's summer surface on stake reference system.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>stake</edomv>
+            <edomvd>Snow depth measured on ablation stake, using known position of previous year's summer surface on stake reference system.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>depth</attrlabl>
+        <attrdef>Snow depth</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>23</rdommin>
+            <rdommax>423</rdommax>
+            <attrunit>cm</attrunit>
+            <attrmres>5</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>YMD</attrlabl>
+        <attrdef>Date, in format of YYYYMMDD (year, month, day).</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>20070418</rdommin>
+            <rdommax>20170420</rdommax>
+            <attrunit>Date</attrunit>
+            <attrmres>1</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>site</attrlabl>
+        <attrdef>Site at which snow depth was measured. Site locations are available in an associated file within this release.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>Site labels.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Glacier_Site_raw_stake_data</enttypl>
+        <enttypd>Comma Separate Value (CSV) file containing data.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>YMD</attrlabl>
+        <attrdef>Date, in format of Year, Month, Day (YYYYMMDD).</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>19850110</rdommin>
+            <rdommax>20160827</rdommax>
+            <attrunit>Date</attrunit>
+            <attrmres>1</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>stake_name</attrlabl>
+        <attrdef>Name of stake, giving the year a stake was installed, and the index site name at which it is installed. Format is Year-Site (YY-Site).
+
+Stakes are installed up-glacier of the true location, and flow through the site during the year or following year. Stakes are located &lt;30 m from the index site. A stake is measured for as many years as possible. Stakes installed in multiple years often exist at a single site, and are measured.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>Stake name (Year installed - Index Site). Year is 2-digit (e.g. 99 for 1999, or 03 for 2003). For example, stake "91-A" is at index site A, installed in 1991.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>surface_type</attrlabl>
+        <attrdef>Measurement surface</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>Field notes on whether the surface consists of snow or ice. "S" indicates snow, "I" indicates ice. Other notes are present as well. Variable text-entry field.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>total_stake_length</attrlabl>
+        <attrdef>Total length of the stake. This can vary through time, as additional length is added, or sections are removed from initial stake.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>12</rdommax>
+            <attrunit>meters</attrunit>
+            <attrmres>.01</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>stake_above_surf</attrlabl>
+        <attrdef>Length of stake above the surface, which can be either ice or snow, as indicated in the surface_type column. Negative values indicate that the top of the stake is below the surface; it is measured as it is installed.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-2.91</rdommin>
+            <rdommax>9.0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>stake_below_surf</attrlabl>
+        <attrdef>Length of stake below the surface.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.5</rdommin>
+            <rdommax>12</rdommax>
+            <attrunit>m</attrunit>
+            <attrmres>0.01</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>comments</attrlabl>
+        <attrdef>Comments on the measurement. A dash followed by initials may indicate the author, especially on older measurements.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>Comments</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Gulkana_site_locations.csv</enttypl>
+        <enttypd>Comma Separate Value (CSV) file containing data.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>site</attrlabl>
+        <attrdef>Name of index site</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>Name of index site used through history of the project</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>latitude</attrlabl>
+        <attrdef>latitude in decimal degrees</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>63.259091</rdommin>
+            <rdommax>63.294753</rdommax>
+            <attrunit>Decimal Degrees</attrunit>
+            <attrmres>Converted from UTM coordinates accurate to 1m</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>longitude</attrlabl>
+        <attrdef>longitude in decimal degrees</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-145.482731</rdommin>
+            <rdommax>-145.385044</rdommax>
+            <attrunit>Decimal Degrees</attrunit>
+            <attrmres>Converted from UTM coordinates accurate to 1m</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>This dataset contains point raw glaciological field data. Snow pit and snow core data gives detailed information on snow density through the measured snow column. Snow depth measurements are collected via snow probe and in some snow pits or snow cores that extend the full depth of the snowpack to the glacier's surface. Ablation stakes allow point measurement of both snow depth and snow melt against the reference of the labeled stake. Draw wires provide additional measurements of snow and ice melt, against the invariant reference of the labeled wire.
+Files are named according to the following conventions:
+pitcore folder:
+Each pit or pit/core combination measurement is presented as a separate csv. They are named as
+Glacier_YYYY_MM_DD_TypeOfMeasurement (pit or core or combination)_IndexSiteName.csv
+
+snowdepth folder:
+All years and sites combined into single file.
+
+stake folder:
+All stakes that exist at a single index site are combined into a single file. These are named as Glacier_IndexSiteName_raw_stake_data.csv.</eaover>
+      <eadetcit>Ostream, G., and M. Brugman (1991), Glacier Mass-Balance Measurements: A Manual for Field and Office Work, Saskatoon, Saskatchewan.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, Alaska Science Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>4210 University Dr.</address>
+          <city>Anchorage</city>
+          <state>AK</state>
+          <postal>99508-4626</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(907) 786-7000</cntvoice>
+        <cntemail>ascweb@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Digital Data</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.5066/xxxxxxxxxxxxx</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>none</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20180201</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, Alaska Science Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>4210 University Dr.</address>
+          <city>Anchorage</city>
+          <state>Alaska</state>
+          <postal>99508-4626</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(907) 786-7000</cntvoice>
+        <cntemail>ascweb@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>
