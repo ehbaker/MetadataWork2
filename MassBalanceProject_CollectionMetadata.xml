@@ -15,12 +15,41 @@
           <publish>U.S. Geological Survey, Alaska Science Center</publish>
         </pubinfo>
         <onlink> https://doi.org/10.5066/xxxxxxx</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Shad O'Neel (ORCID: 0000-0002-9185-0144)</origin>
+            <origin>Emily H. Baker (ORCID: 0000-0002-0938-3496)</origin>
+            <origin>Louis C. Sass (ORCID: 0000-0003-4677-029X)</origin>
+            <pubdate>2018</pubdate>
+            <title>Alaska Benchmark Glacier Mass Balance</title>
+            <geoform>Web Site</geoform>
+            <pubinfo>
+              <pubplace>Anchorage, Alaska</pubplace>
+              <publish>U.S. Geological Survey, Alaska Science Center</publish>
+            </pubinfo>
+            <onlink>http://alaska.usgs.gov/portal/project.php?project_id=18</onlink>
+          </citeinfo>
+        </lworkcit>
+        <lworkcit>
+          <citeinfo>
+            <origin>Shad O'Neel (ORCID: 0000-0002-9185-0144)</origin>
+            <origin>Emily H. Baker (ORCID: 0000-0002-0938-3496)</origin>
+            <pubdate>2018</pubdate>
+            <title>Alaska Benchmark Glacier Mass Balance</title>
+            <geoform>Web Site</geoform>
+            <pubinfo>
+              <pubplace>Anchorage, Alaska</pubplace>
+              <publish>U.S. Geological Survey, Alaska Science Center</publish>
+            </pubinfo>
+            <onlink>https://www2.usgs.gov/climate_landuse/clu_rd/glacierstudies/</onlink>
+          </citeinfo>
+        </lworkcit>
       </citeinfo>
     </citation>
     <descript>
-      <abstract>Since the late 1950s the late 1950s, the USGS has maintained a long-term glacier mass-balance program at three North American glaciers. Measurements began on South Cascade Glacier, WA in 1958, expanding to Gulkana and Wolverine glaciers, AK in 1966, and later Sperry Glacier, MT in 2005. Additional measurements have been made on Lemon Creek and Taku glaciers, AK to compliment data collected by the Juneau Icefield Research Program (JIRP; Pelto et al., 2013). Direct field measurements of point glaciological data are combined with weather and geodetic data to derive glacier-wide seasonal and annual surface mass balance solutions of each glacier in conventional and reference surface formats (Cogley et al., 2011). Additional details on the calculation of glacier-wide surface mass balance is described in Van Beusekom et al. (2010).</abstract>
-      <purpose>The purpose of this project is to quantitatively record changes in mass at specified glaciers over the period of record. Although this data was primarily collected for the purpose of mass balance, there are many other potential uses for this data, including ecological assessments, remote sensing validation, or water resource applications. Data is included as available, though the history of the project. Additional older, undigitized records may be available via digitized scans of field notebooks.</purpose>
-      <supplinf>This data release is composed of the varied datasets used by the USGS Benchmark Glacier program to measure seasonal and annual mass balance. Products within the release range frow raw field data to processed glacier-wide mass balance measurements. </supplinf>
+      <abstract>Since the late 1950s, the USGS has maintained a long-term glacier mass-balance program at three North American glaciers. Measurements began on South Cascade Glacier, WA in 1958, expanding to Gulkana and Wolverine glaciers, AK in 1966, and later Sperry Glacier, MT in 2005. Additional measurements have been made on Lemon Creek and Taku glaciers, AK to compliment data collected by the Juneau Icefield Research Program (JIRP; Pelto et al., 2013). Direct field measurements of point glaciological data are combined with weather and geodetic data to derive glacier-wide seasonal and annual surface mass balance solutions of each glacier in conventional and reference surface formats (Cogley et al., 2011). Additional details on the calculation of glacier-wide surface mass balance is described in Van Beusekom et al. (2010).</abstract>
+      <purpose>The purpose of this project is to quantitatively record changes in mass at specified glaciers over the period of record. Although this data was primarily collected for the purpose of mass balance, there are many other potential uses for this data, including ecological assessments, remote sensing validation, or water resource applications. Data is included as available, though the history of the project. Additional older, analog records may be available via digitized scans of field notebooks.</purpose>
+      <supplinf>This collection of data is composed of the varied datasets used by the USGS Benchmark Glacier program to measure seasonal and annual mass balance. Products within the release range from raw field data to processed glacier-wide mass balance measurements. </supplinf>
     </descript>
     <timeperd>
       <timeinfo>
@@ -49,6 +78,14 @@
     </spdom>
     <keywords>
       <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>boundaries</themekey>
+        <themekey>climateologyMeteorologyAtmosphere</themekey>
+        <themekey>elevation</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
         <themekt>None</themekt>
         <themekey>geophysics</themekey>
         <themekey>Glaciology</themekey>
@@ -69,6 +106,15 @@
         <themekey>Geology</themekey>
         <themekey>Remote Sensing</themekey>
       </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>glaciology</themekey>
+        <themekey>glaciation</themekey>
+        <themekey>snowfall measurement</themekey>
+        <themekey>precipitation measurement</themekey>
+        <themekey>snow and ice cover</themekey>
+        <themekey>glaciers</themekey>
+      </theme>
       <place>
         <placekt/>
         <placekey/>
@@ -77,10 +123,14 @@
         <placekt>USGS Geographic Names Information System</placekt>
         <placekey>Wolverine Glacier</placekey>
         <placekey>Gulkana Glacier</placekey>
+        <placekey>Sperry Glacier</placekey>
+        <placekey>South Cascade Glacier</placekey>
+        <placekey>Lemon Creek Glacier</placekey>
+        <placekey>Juneau Icefield</placekey>
       </place>
     </keywords>
     <accconst>none</accconst>
-    <useconst>Please cite U.S. Geological Survey/listed authors and give credit for the data. When appropriate, please consider co-authorship with the owners of the database. These data are the result of efforts by many of government and non-government participants in the field, including USGS and various researchers and managers. All publications based on these data should acknowledge all of these efforts. If a publication is based solely on the analysis of this data, we suggest that you involve the authors of this data with the writing and/or review of the manuscript. We would also appreciate receiving notification of any publications or reports that make use of the data.</useconst>
+    <useconst>It is requested that the authors and the USGS Alaska Science Center be cited for any subsequent publications referencing this dataset. It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data in order to evaluate data set limitations, restrictions and reccommended uses. When appropriate, please consider co-authorship with the authors of this data.</useconst>
     <ptcontac>
       <cntinfo>
         <cntorgp>
@@ -102,10 +152,10 @@
   </idinfo>
   <dataqual>
     <attracc>
-      <attraccr>Attribute accuracy is assessed for each child entity separately, and should be viewed there.</attraccr>
+      <attraccr>Attribute accuracy is described in each individual dataset metadata separately, and should be referenced there for specific descriptions.</attraccr>
     </attracc>
-    <logic>No formal logical accuray tests were conducted, or were performed at the entity and attribute level and are detailed within.</logic>
-    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <logic>Logical consistency is described in each individual dataset metadata separately, and should be referenced there for specific descriptions.</logic>
+    <complete>Dataset compleness is described in each individual dataset metadata separately, and should be referenced there for specific descriptions.</complete>
     <posacc>
       <horizpa>
         <horizpar>Positions are reported to 1 m and are generally know to better than this scale. However, sites located on the glacier are moving, and the coordinates represent an average location that the measurement site flows through on an annual basis.</horizpar>
@@ -120,10 +170,18 @@
   </dataqual>
   <eainfo>
     <overview>
-      <eaover>Since the late 1950s, the USGS has maintained a long-term glacier mass-balance program at three North American glaciers. Measurements began on South Cascade Glacier, WA in 1958, expanding to Gulkana and Wolverine glaciers, AK in 1966, and later Sperry Glacier, MT in 2005. Additional measurements have been made on Lemon Creek and Taku glaciers, AK to compliment data collected by the Juneau Icefield Research Program (JIRP; Pelto et al., 2013). Direct field measurements are combined with weather and geodetic data to derive seasonal and annual surface mass balance solutions of each glacier in conventional and reference surface formats (Cogley et al., 2011).
+      <eaover>Mass balance is calculated from direct field measurements in combination with weather data and imagery analyses. Mass balance is calculated at both a seasonal and annual time-step at each glacier in both a conventional and reference surface format (Cogley and others, 2011). The analysis framework (Van Beusekom and others, 2010; O&#8217;Neel and others, 2014) is identical at each glacier to enable cross-comparison between output time series. Vocabulary used follows Cogley and others (2011) Glossary of glacier mass balance.
 
-The purpose of this project is to quantitatively record changes in mass at specified glaciers over the period of record. Although data within this collection was primarily collected for the purpose of mass balance, there are multiple other uses for this data, including ecological assessments, remote sensing validation, or water resource applications. Data is included as available, though the history of the project. Additional undigitized records remain, but may be added in a future update.</eaover>
-      <eadetcit>Cogley, J. G., Hock, R., Rasmussen, L. A., Arendt, A. A., Bauder, A., Braithwaite, R. J., et al. (2011). Glossary of GlacierMass Balance and Related Terms. IHP-VII Technical Documents in Hydrology, 86.</eadetcit>
+Interpreted data, including calculated glacier-wide mass balance, daily weather data, and point mass balances are released in O'Neel (2016), at https://doi.org/10.5066/F7HD7SRF.
+
+Point raw glaciological data, including snow density, ablation stake, and snow depth measurements are released in Baker (2018), at https://doi.org/10.5066/XXXXXXXXXX.
+
+Geodetic data, and raw, sub-daily weather data will be included in future releases. </eaover>
+      <eadetcit>Cogley, J. G., Hock, R., Rasmussen, L. A., Arendt, A. A., Bauder, A., Braithwaite, R. J., et al. (2011). Glossary of GlacierMass Balance and Related Terms. IHP-VII Technical Documents in Hydrology, 86.
+
+O&#8217;Neel, S., Hood, E., Arendt, A., and Sass, L., 2014, Assessing streamflow sensitivity to variations in glacier mass balance: Climatic Change, v. 123, no. 2, p. 1&#8211;13.
+
+Van Beusekom, A.E., O&#8217;Neel, S., March, R.S., Sass, L.C., and Cox, L.H., 2010, Re-analysis of Alaskan benchmark glacier mass-balance data using the index method: U.S. Geological Survey Scientific Investigations Report, v. 2010, no. 5247, p. 16.</eadetcit>
     </overview>
   </eainfo>
   <distinfo>
