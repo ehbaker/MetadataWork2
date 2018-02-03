@@ -1,3 +1,5 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href='NBII_classic.xsl' type='text/xsl'?>
 <metadata>
   <idinfo>
     <citation>
@@ -9,11 +11,12 @@
         <pubdate>20180101</pubdate>
         <title>USGS Benchmark Glacier Mass Balance and Project Data: 1966-2016
 </title>
-        <geoform>tabular digital data</geoform>
+        <geoform>Web Site</geoform>
         <pubinfo>
           <pubplace>Anchorage, AK</pubplace>
           <publish>U.S. Geological Survey, Alaska Science Center</publish>
         </pubinfo>
+        <othercit>Baker, E. H., McNeil, C. J., Sass, L. C.,  O'Neel, S., 2018, USGS Benchmark Glacier Mass Balance and Project Data: 1966-2016: U.S. Geological Survey data release, https://doi.org/10.5066/xxxxxxx</othercit>
         <onlink> https://doi.org/10.5066/xxxxxxx</onlink>
         <lworkcit>
           <citeinfo>
@@ -30,36 +33,18 @@
             <onlink>http://alaska.usgs.gov/portal/project.php?project_id=18</onlink>
           </citeinfo>
         </lworkcit>
-        <lworkcit>
-          <citeinfo>
-            <origin>Shad O'Neel (ORCID: 0000-0002-9185-0144)</origin>
-            <origin>Emily H. Baker (ORCID: 0000-0002-0938-3496)</origin>
-            <pubdate>2018</pubdate>
-            <title>Alaska Benchmark Glacier Mass Balance</title>
-            <geoform>Web Site</geoform>
-            <pubinfo>
-              <pubplace>Anchorage, Alaska</pubplace>
-              <publish>U.S. Geological Survey, Alaska Science Center</publish>
-            </pubinfo>
-            <onlink>https://www2.usgs.gov/climate_landuse/clu_rd/glacierstudies/</onlink>
-          </citeinfo>
-        </lworkcit>
       </citeinfo>
     </citation>
     <descript>
       <abstract>Since the late 1950s, the USGS has maintained a long-term glacier mass-balance program at three North American glaciers. Measurements began on South Cascade Glacier, WA in 1958, expanding to Gulkana and Wolverine glaciers, AK in 1966, and later Sperry Glacier, MT in 2005. Additional measurements have been made on Lemon Creek and Taku glaciers, AK to compliment data collected by the Juneau Icefield Research Program (JIRP; Pelto et al., 2013). Direct field measurements of point glaciological data are combined with weather and geodetic data to derive glacier-wide seasonal and annual surface mass balance solutions of each glacier in conventional and reference surface formats (Cogley et al., 2011). Additional details on the calculation of glacier-wide surface mass balance is described in Van Beusekom et al. (2010).</abstract>
-      <purpose>The purpose of this project is to quantitatively record changes in mass at specified glaciers over the period of record. Although this data was primarily collected for the purpose of mass balance, there are many other potential uses for this data, including ecological assessments, remote sensing validation, or water resource applications. Data is included as available, though the history of the project. Additional older, analog records may be available via digitized scans of field notebooks.</purpose>
+      <purpose>This collection of data is used to quantitatively record changes in mass at specified glaciers over the period of record. Although this data was primarily collected for the purpose of mass balance, there are many other potential uses for this data, including ecological assessments, remote sensing validation, or water resource applications. Data is included as available, though the history of the project. Additional older, analog records may be available via digitized scans of field notebooks.</purpose>
       <supplinf>This collection of data is composed of the varied datasets used by the USGS Benchmark Glacier program to measure seasonal and annual mass balance. Products within the release range from raw field data to processed glacier-wide mass balance measurements. </supplinf>
     </descript>
     <timeperd>
       <timeinfo>
         <rngdates>
-          <begdate>
-
-          19700101</begdate>
-          <enddate>
-
-          20170101</enddate>
+          <begdate>Unknown</begdate>
+          <enddate>Unknown</enddate>
         </rngdates>
       </timeinfo>
       <current>publication date</current>
@@ -116,10 +101,6 @@
         <themekey>glaciers</themekey>
       </theme>
       <place>
-        <placekt/>
-        <placekey/>
-      </place>
-      <place>
         <placekt>USGS Geographic Names Information System</placekt>
         <placekey>Wolverine Glacier</placekey>
         <placekey>Gulkana Glacier</placekey>
@@ -149,6 +130,17 @@
         <cntemail>ascweb@usgs.gov</cntemail>
       </cntinfo>
     </ptcontac>
+    <crossref>
+      <citeinfo>
+        <origin>Shad O'Neel (ORCID: 0000-0002-9185-0144)</origin>
+        <origin>Emily H. Baker (ORCID: 0000-0002-0938-3496)</origin>
+        <pubdate>20180101</pubdate>
+        <title>Alaska Benchmark Glacier Mass Balance Website</title>
+        <geoform>website</geoform>
+        <othercit>Baker, E. H., Sass, L. C., McNeil, C. J., O'Neel, S. , 2018, USGS Benchmark Glacier Mass Balance and Project Data: 1966-2016: U.S. Geological Survey data release, https://doi.org/10.5066/xxxxxxx</othercit>
+        <onlink>https://www2.usgs.gov/climate_landuse/clu_rd/glacierstudies/</onlink>
+      </citeinfo>
+    </crossref>
   </idinfo>
   <dataqual>
     <attracc>
@@ -158,7 +150,7 @@
     <complete>Dataset compleness is described in each individual dataset metadata separately, and should be referenced there for specific descriptions.</complete>
     <posacc>
       <horizpa>
-        <horizpar>Positions are reported to 1 m and are generally know to better than this scale. However, sites located on the glacier are moving, and the coordinates represent an average location that the measurement site flows through on an annual basis.</horizpar>
+        <horizpar>Positions are reported to 1 m and the location of the site is known to higher accuracy. However,  ablation stakes located on the glacier are moving, and the coordinates represent an average location that the measurement stake flows through on an annual basis. Snow pits and probed snow depths are located close to, but not precisely at site coordinates.</horizpar>
       </horizpa>
     </posacc>
     <lineage>
@@ -170,18 +162,18 @@
   </dataqual>
   <eainfo>
     <overview>
-      <eaover>Mass balance is calculated from direct field measurements in combination with weather data and imagery analyses. Mass balance is calculated at both a seasonal and annual time-step at each glacier in both a conventional and reference surface format (Cogley and others, 2011). The analysis framework (Van Beusekom and others, 2010; O&#8217;Neel and others, 2014) is identical at each glacier to enable cross-comparison between output time series. Vocabulary used follows Cogley and others (2011) Glossary of glacier mass balance.
+      <eaover>Mass balance is calculated from direct field measurements in combination with weather data and imagery analyses. Mass balance is calculated at both a seasonal and annual time-step at each glacier in both a conventional and reference surface format (Cogley and others, 2011). The analysis framework (Van Beusekom and others, 2010; O’Neel and others, 2014) is identical at each glacier to enable cross-comparison between output time series. Vocabulary used follows Cogley and others (2011) Glossary of glacier mass balance.
 
 Interpreted data, including calculated glacier-wide mass balance, daily weather data, and point mass balances are released in O'Neel (2016), at https://doi.org/10.5066/F7HD7SRF.
 
 Point raw glaciological data, including snow density, ablation stake, and snow depth measurements are released in Baker (2018), at https://doi.org/10.5066/XXXXXXXXXX.
 
-Geodetic data, and raw, sub-daily weather data will be included in future releases. </eaover>
-      <eadetcit>Cogley, J. G., Hock, R., Rasmussen, L. A., Arendt, A. A., Bauder, A., Braithwaite, R. J., et al. (2011). Glossary of GlacierMass Balance and Related Terms. IHP-VII Technical Documents in Hydrology, 86.
+Geodetic data, and raw, sub-daily weather data will be included in future releases.</eaover>
+      <eadetcit>Cogley, J. G., Hock, R., Rasmussen, L. A., Arendt, A. A., Bauder, A., Braithwaite, R. J., et al. (2011). Glossary of Glacier Mass Balance and Related Terms. IHP-VII Technical Documents in Hydrology, 86.
 
-O&#8217;Neel, S., Hood, E., Arendt, A., and Sass, L., 2014, Assessing streamflow sensitivity to variations in glacier mass balance: Climatic Change, v. 123, no. 2, p. 1&#8211;13.
+O’Neel, S., Hood, E., Arendt, A., and Sass, L., 2014, Assessing streamflow sensitivity to variations in glacier mass balance: Climatic Change, v. 123, no. 2, p. 1–13.
 
-Van Beusekom, A.E., O&#8217;Neel, S., March, R.S., Sass, L.C., and Cox, L.H., 2010, Re-analysis of Alaskan benchmark glacier mass-balance data using the index method: U.S. Geological Survey Scientific Investigations Report, v. 2010, no. 5247, p. 16.</eadetcit>
+Van Beusekom, A.E., O’Neel, S., March, R.S., Sass, L.C., and Cox, L.H., 2010, Re-analysis of Alaskan benchmark glacier mass-balance data using the index method: U.S. Geological Survey Scientific Investigations Report, v. 2010, no. 5247, p. 16.</eadetcit>
     </overview>
   </eainfo>
   <distinfo>
@@ -202,11 +194,15 @@ Van Beusekom, A.E., O&#8217;Neel, S., March, R.S., Sass, L.C., and Cox, L.H., 20
         <cntemail>ascweb@usgs.gov</cntemail>
       </cntinfo>
     </distrib>
+    <resdesc>Authoritative source for access to data in the collection.</resdesc>
     <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.</distliab>
     <stdorder>
       <digform>
         <digtinfo>
-          <formname>Digital Data</formname>
+          <formname>Zip</formname>
+          <formvern>19.0</formvern>
+          <formcont>See metadata for individual data sets regarding information about zip package contents.</formcont>
+          <filedec>Zip</filedec>
         </digtinfo>
         <digtopt>
           <onlinopt>
@@ -240,7 +236,7 @@ Van Beusekom, A.E., O&#8217;Neel, S., March, R.S., Sass, L.C., and Cox, L.H., 20
         <cntemail>ascweb@usgs.gov</cntemail>
       </cntinfo>
     </metc>
-    <metstdn>FGDC CSDGM</metstdn>
-    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
   </metainfo>
 </metadata>

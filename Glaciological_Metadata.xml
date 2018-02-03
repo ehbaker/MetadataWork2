@@ -1,3 +1,5 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href='NBII_classic.xsl' type='text/xsl'?>
 <metadata>
   <idinfo>
     <citation>
@@ -7,7 +9,7 @@
         <origin>Louis C. Sass (ORCID: 0000-0003-4677-029X)</origin>
         <origin>Shad O'Neel (ORCID: 0000-0002-9185-0144)</origin>
         <pubdate>20180101</pubdate>
-        <title>Point Raw Glaciological Data: Ablation Stake, Snow Pit, and Probed Snow Depth Data</title>
+        <title>Point Raw Glaciological Data: Ablation Stake, Snow Pit, and Probed Snow Depth Data on USGS Benchmark Glaciers, 1981-2016</title>
         <geoform>tabular digital data</geoform>
         <pubinfo>
           <pubplace>Anchorage, AK</pubplace>
@@ -30,18 +32,14 @@
     </citation>
     <descript>
       <abstract>Since the late 1950s, the USGS has maintained a long-term glacier mass-balance program at three North American glaciers. Measurements began on South Cascade Glacier, WA in 1958, expanding to Gulkana and Wolverine glaciers, AK in 1966, and later Sperry Glacier, MT in 2005. Additional measurements have been made on Lemon Creek and Taku glaciers, AK to compliment data collected by the Juneau Icefield Research Program (JIRP; Pelto et al., 2013). Direct field measurements of point glaciological data are combined with weather and geodetic data to derive glacier-wide seasonal and annual surface mass balance solutions of each glacier in conventional and reference surface formats (Cogley et al., 2011). Additional details on the calculation of glacier-wide surface mass balance is described in Van Beusekom et al. (2010).</abstract>
-      <purpose>The purpose of this project is to quantitatively record changes in mass at specified glaciers over the period of record. Although this data was primarily collected for the purpose of mass balance, there are many other potential uses for this data, including ecological assessments, remote sensing validation, or water resource applications. Data is included as available, though the history of the project. Additional older, analog records may be available via digitized scans of field notebooks.</purpose>
+      <purpose>This collection of data is used to quantitatively record changes in mass at specified glaciers over the period of record. Although this data was primarily collected for the purpose of mass balance, there are many other potential uses for this data, including ecological assessments, remote sensing validation, or water resource applications. Data is included as available, though the history of the project. Additional older, analog records may be available via digitized scans of field notebooks.</purpose>
       <supplinf>This data is used to calculate seasonal glacier-wide mass balances, as released in O'Neel et. al (2016): https://doi.org/10.5066/F7HD7SRF.</supplinf>
     </descript>
     <timeperd>
       <timeinfo>
         <rngdates>
-          <begdate>
-
-          19700101</begdate>
-          <enddate>
-
-          20170101</enddate>
+          <begdate>Unknown</begdate>
+          <enddate>Unknown</enddate>
         </rngdates>
       </timeinfo>
       <current>publication date</current>
@@ -63,7 +61,7 @@
         <themekt>ISO 19115 Topic Category</themekt>
         <themekey>geoscientificInformation</themekey>
         <themekey>boundaries</themekey>
-        <themekey>climateologyMeteorologyAtmosphere</themekey>
+        <themekey>climatologyMeteorologyAtmosphere</themekey>
         <themekey>elevation</themekey>
         <themekey>environment</themekey>
       </theme>
@@ -98,10 +96,6 @@
         <themekey>glaciers</themekey>
       </theme>
       <place>
-        <placekt/>
-        <placekey/>
-      </place>
-      <place>
         <placekt>USGS Geographic Names Information System</placekt>
         <placekey>Wolverine Glacier</placekey>
         <placekey>Gulkana Glacier</placekey>
@@ -112,7 +106,7 @@
       </place>
     </keywords>
     <accconst>none</accconst>
-    <useconst>It is requested that the authors and the USGS Alaska Science Center be cited for any subsequent publications referencing this dataset. It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data in order to evaluate data set limitations, restrictions and reccommended uses. When appropriate, please consider co-authorship with the authors of this data.</useconst>
+    <useconst>It is requested that the authors and the USGS Alaska Science Center be cited for any subsequent publications referencing this dataset. It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data in order to evaluate data set limitations, restrictions and recommended uses. When appropriate, please consider co-authorship with the authors of this data.</useconst>
     <ptcontac>
       <cntinfo>
         <cntorgp>
@@ -131,23 +125,33 @@
         <cntemail>ascweb@usgs.gov</cntemail>
       </cntinfo>
     </ptcontac>
+    <crossref>
+      <citeinfo>
+        <origin>Shad O'Neel (ORCID: 0000-0002-9185-0144)</origin>
+        <origin>Emily H. Baker (ORCID: 0000-0002-0938-3496)</origin>
+        <pubdate>20180101</pubdate>
+        <title>Alaska Benchmark Glacier Mass Balance Website</title>
+        <geoform>website</geoform>
+        <othercit>Baker, E. H., Sass, L. C., McNeil, C. J., O'Neel, S., 2018, USGS Benchmark Glacier Mass Balance and Project Data: 1966-2016: U.S. Geological Survey data release, https://doi.org/10.5066/xxxxxxx</othercit>
+        <onlink>https://www2.usgs.gov/climate_landuse/clu_rd/glacierstudies/</onlink>
+      </citeinfo>
+    </crossref>
   </idinfo>
   <dataqual>
     <attracc>
-      <attraccr>We did not conduct any formal attribute accuracy tests. The user must assess these attributes on a case-by-case basis.</attraccr>
-    </attracc>
-    <logic>Original data entry sheets have been used extensively in calculating glacier-wide mass balance. Data can be used with confidence. Occasional errors may have been introduced in the transition from original data-entry format to cleaned data for release. If any irregularities are found, please contact the authors for clarification. A check has been made on volumnes, ensuring that given volumnes and agree with recorded core length and diameters. Extensive spot-checking has been completed to confirm that transformation in format from data-entry to release has not introduced errors into the data.
+      <attraccr>For all input values, uncertainties are poorly constrained, and evaluated primarily on the basis of expert opinion.
 
-    </logic>
-    <complete>Data set is considered complete for the information presented, as described in the abstract. We include all currently digitized project data; additional information may be available via digital scans of field notebooks. All data recorded in snow pits, at ablatin stakes, and probed snow depths as a part of mass balance fieldwork are reported here.</complete>
+Snow accumulation: Primary sources of uncertainty exist from surface roughness, snow density variability, stake deformation and drilling and discrepancies between various types of observations (probe depths, stake length change and snow pit depth). Nominal uncertainty from these sources has been previously estimated to be 0.3 m w.e. (Beedle and others, 2014; Huss and others, 2009).
+
+Snow and ice melt: Primary sources of uncertainty exist from surface roughness, snow density variability, stake deformation and drilling and discrepancies between various types of observations (probe depths, stake length change and snow pit depth). Nominal uncertainty from these sources is estimated at 0.10 m w.e. (Heinrichs and others, 1995).</attraccr>
+    </attracc>
+    <logic>Original data entry sheets have been used extensively in calculating glacier-wide mass balance. Data has been QA/QC'd by hand in relation to use for mass balance calculations. A check has been made on volumes, ensuring that given volumes and agree with recorded core length and diameters.Ablation stake measurements have been checked to ensure that length in ice and length out of ice sums to total stake length, ensuring accurate data entry in this parameter. Extensive spot-checking has been completed to confirm that transformation in format from data-entry to release has not introduced errors.</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. We include all currently digitized project data; additional information may be available via digital scans of field notebooks. All data recorded in snow pits, at ablation stakes, and probed snow depths as a part of mass balance fieldwork are reported here.</complete>
     <posacc>
       <horizpa>
         <horizpar>glacier_site_locations.csv:
 This file gives the locations of glaciological sites on each glacier. Snow pits are located either at or very close to (&lt;10m) this glaciological site location. Ablation stakes flow with the ice in which they are installed; their location is not fixed. For Alaska sites, ablation stakes are installed &lt; 30 m up-glacier of the site location, and flow through the true site in the years following their installation. In Montana, the stake is installed at the true location, and flows down-glacier in subsequent years. Locations of ablation stakes, snow pits, and probed snow depths should be derived by matching the site name in a given type of data with this index site location file. Locations are given in latitude and longitude, in decimal degrees (EPSG code 4326).</horizpar>
       </horizpa>
-      <vertacc>
-        <vertaccr>No vertcal spatial coordinates given; no accuracy to report.</vertaccr>
-      </vertacc>
     </posacc>
     <lineage>
       <procstep>
@@ -158,7 +162,7 @@ Samples of snow and ice have been taken with a variety of samplers through the h
       </procstep>
       <procstep>
         <procdesc>Snowdepth:
-Snowdepth is measured by probing undisturbed snow near an ablation stake, or measured in a snow pit or snow core where ice is reached. Strike of the probe against the ice surface can generally be felt. These depths should be used with some caution, and in conjunction with snow depths measured at ablation stakes, as ice lenses within the snowpack may occasionally be mistaken for the glacier surface. In a pit or snow core, the glacier surface is obvious.</procdesc>
+Snowd depth is measured by probing undisturbed snow near an ablation stake, or measured in a snow pit or snow core where ice is reached. Strike of the probe against the ice surface can generally be felt. These depths should be used with some caution, and in conjunction with snow depths measured at ablation stakes, as ice lenses within the snowpack may occasionally be mistaken for the glacier surface. In a pit or snow core, the glacier surface is obvious.</procdesc>
         <srcused>Ostream, G., and M. Brugman (1991), Glacier Mass-Balance Measurements: A Manual for Field and Office Work, Saskatoon, Saskatchewan.</srcused>
         <procdate>2017</procdate>
       </procstep>
@@ -170,6 +174,10 @@ Metal stakes are installed vertically into the glacier surface at index sites wi
       </procstep>
     </lineage>
   </dataqual>
+  <spdoinfo>
+    <indspref>Location is referenced indirectly via use of long-term site names. These locations are provided in latitute and longitude via CSV tabular data files, in the form glacier_site_locations.csv. Site names and locations are given per glacier.</indspref>
+    <direct>Point</direct>
+  </spdoinfo>
   <spref>
     <horizsys>
       <geograph>
@@ -184,13 +192,78 @@ Metal stakes are installed vertically into the glacier surface at index sites wi
       <enttyp>
         <enttypl>Glacier_YYYY_MM_DD_Pit_SiteName</enttypl>
         <enttypd>pitcore folder:
-These files give detailed measurements of snow density in snow pits and snow cores, or a combination of the two. Snow cores allow measurement of bulk snow density to a greater depth than the extent of the snow pit. File name contains information on the glacier, date, whether measurements are from a pit, core, or pit/core combination, and index site location. Density samples of snow and ice have been taken with a variety of samplers through the history of the project. Sample weight and depth below surface are noted, and weight is measured using a spring scale and small stuff sack for sample, as described in Cogley et al. (2011). This is in the form glacier_YYYY_MM_DD_PitCore_index_site.csv. </enttypd>
+These files give detailed measurements of snow density in snow pits and snow cores, or a combination of the two. Snow cores allow measurement of bulk snow density to a greater depth than the extent of the snow pit. File name contains information on the glacier, date, whether measurements are from a pit, core, or pit/core combination, and index site location. Density samples of snow and ice have been taken with a variety of samplers through the history of the project. Sample weight and depth below surface are noted, and weight is measured using a spring scale and small stuff sack for sample, as described in Cogley et al. (2011). This is in the form glacier_YYYY_MM_DD_PitCore_index_site.csv.</enttypd>
         <enttypds>Producer defined</enttypds>
       </enttyp>
       <attr>
-        <attrlabl>sampler </attrlabl>
+        <attrlabl>sample_weight</attrlabl>
+        <attrdef>Weight of snow sample</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1620</rdommax>
+            <attrunit>grams</attrunit>
+            <attrmres>5</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>sample_bottom_depth</attrlabl>
+        <attrdef>Bottom depth of snow sample</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1250</rdommax>
+            <attrunit>centimeters</attrunit>
+            <attrmres>1</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>avg_core_length</attrlabl>
+        <attrdef>Average of 3 measurements, on 3 sides of core</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>90</rdommax>
+            <attrunit>centimeters</attrunit>
+            <attrmres>0.5</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>avg_core_diam</attrlabl>
+        <attrdef>Average of 4 measurements, on 4 opposing sides of core</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>6</rdommin>
+            <rdommax>7.6</rdommax>
+            <attrunit>centimeters</attrunit>
+            <attrmres>0.2</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>volume</attrlabl>
+        <attrdef>Volume of sample, from either sampler type or as calculated from core length and diameter measurements, as appropriate. This should be used for calculating density.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2</rdommin>
+            <rdommax>1000</rdommax>
+            <attrunit>cubic centimeters</attrunit>
+            <attrmres>1</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>sampler</attrlabl>
         <attrdef>Type of density sampler used</attrdef>
-        <attrdefs> Producer</attrdefs>
+        <attrdefs>Producer</attrdefs>
         <attrdomv>
           <edom>
             <edomv>wedge</edomv>
@@ -235,76 +308,8 @@ These files give detailed measurements of snow density in snow pits and snow cor
         </attrdomv>
       </attr>
       <attr>
-        <attrlabl>sample_weight</attrlabl>
-        <attrdef>Weight of snow sample</attrdef>
-        <attrdefs>Producer Defined</attrdefs>
-        <attrdomv>
-          <rdom>
-            <rdommin>0</rdommin>
-            <rdommax>1620</rdommax>
-            <attrunit>grams</attrunit>
-            <attrmres>5</attrmres>
-          </rdom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>sample_bottom_depth</attrlabl>
-        <attrdef>Bottom depth of snow sample</attrdef>
-        <attrdefs>Producer Defined</attrdefs>
-        <attrdomv>
-          <rdom>
-            <rdommin>0</rdommin>
-            <rdommax>1250</rdommax>
-            <attrunit>centimeters</attrunit>
-            <attrmres>
-
-            1</attrmres>
-          </rdom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>avg_core_length</attrlabl>
-        <attrdef>Average of 3 measurements, on 3 sides of core</attrdef>
-        <attrdefs>Producer Defined</attrdefs>
-        <attrdomv>
-          <rdom>
-            <rdommin>0</rdommin>
-            <rdommax>90</rdommax>
-            <attrunit>centimeters</attrunit>
-            <attrmres>0.5</attrmres>
-          </rdom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>avg_core_diam</attrlabl>
-        <attrdef>Average of 4 measurements, on 4 opposing sides of core</attrdef>
-        <attrdefs>Producer Defined</attrdefs>
-        <attrdomv>
-          <rdom>
-            <rdommin>6</rdommin>
-            <rdommax>7.6</rdommax>
-            <attrunit>centimeters</attrunit>
-            <attrmres>0.2</attrmres>
-          </rdom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>volume</attrlabl>
-        <attrdef>volume of sample, from either sampler type or as calculated from core length and diameter measurements, as appropriate. This should be used for calculating density.</attrdef>
-        <attrdefs>Producer Defined</attrdefs>
-        <attrdomv>
-          <rdom>
-            <rdommin>2</rdommin>
-            <rdommax>1000</rdommax>
-            <attrunit>cubic centimeters</attrunit>
-            <attrmres>1</attrmres>
-          </rdom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>comments      </attrlabl>
-        <attrdef>Field notes regarding this sample
-        </attrdef>
+        <attrlabl>comments</attrlabl>
+        <attrdef>Field notes regarding this sample</attrdef>
         <attrdefs>User defined</attrdefs>
         <attrdomv>
           <udom>Comments regarding the sample, as recorded in the field.</udom>
@@ -320,7 +325,7 @@ These files give point measurements of snow depth, as measured by a variety of l
       </enttyp>
       <attr>
         <attrlabl>type</attrlabl>
-        <attrdef>Type of measurement used to derive snowdepth.</attrdef>
+        <attrdef>Type of measurement used to derive snow depth.</attrdef>
         <attrdefs>Producer defined</attrdefs>
         <attrdomv>
           <edom>
@@ -345,13 +350,6 @@ These files give point measurements of snow depth, as measured by a variety of l
         </attrdomv>
         <attrdomv>
           <edom>
-            <edomv/>
-            <edomvd/>
-            <edomvds>Producer defined</edomvds>
-          </edom>
-        </attrdomv>
-        <attrdomv>
-          <edom>
             <edomv>probe</edomv>
             <edomvd>Snow depth measured via snow probe. Occasionally, a hard ice lens within the snowpack may be confused for the surface of the glacier. While much effort is given to avoid this, a few cases may be present.</edomvd>
             <edomvds>Producer defined</edomvds>
@@ -366,8 +364,10 @@ These files give point measurements of snow depth, as measured by a variety of l
         </attrdomv>
         <attrdomv>
           <edom>
-            <edomv/>
-            <edomvd/>
+            <edomv>
+            </edomv>
+            <edomvd>
+            </edomvd>
             <edomvds>Producer defined</edomvds>
           </edom>
         </attrdomv>
@@ -454,7 +454,7 @@ Stakes are installed up-glacier of the true location, and flow through the site 
             <rdommin>0</rdommin>
             <rdommax>12</rdommax>
             <attrunit>meters</attrunit>
-            <attrmres>.01</attrmres>
+            <attrmres>0.01</attrmres>
           </rdom>
         </attrdomv>
       </attr>
@@ -515,7 +515,6 @@ This file gives the locations of glaciological sites on each glacier. Snow pits 
             <rdommin>63.259091</rdommin>
             <rdommax>63.294753</rdommax>
             <attrunit>Decimal Degrees</attrunit>
-            <attrmres>Converted from UTM coordinates accurate to 1m</attrmres>
           </rdom>
         </attrdomv>
       </attr>
@@ -528,7 +527,6 @@ This file gives the locations of glaciological sites on each glacier. Snow pits 
             <rdommin>-145.482731</rdommin>
             <rdommax>-145.385044</rdommax>
             <attrunit>Decimal Degrees</attrunit>
-            <attrmres>Converted from UTM coordinates accurate to 1m</attrmres>
           </rdom>
         </attrdomv>
       </attr>
@@ -604,7 +602,7 @@ All stakes that exist at a single index site are combined into a single file. Th
         <cntemail>ascweb@usgs.gov</cntemail>
       </cntinfo>
     </metc>
-    <metstdn>FGDC CSDGM</metstdn>
-    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
   </metainfo>
 </metadata>
