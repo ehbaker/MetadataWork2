@@ -362,15 +362,6 @@ These files give point measurements of snow depth, as measured by a variety of l
             <edomvds>Producer defined</edomvds>
           </edom>
         </attrdomv>
-        <attrdomv>
-          <edom>
-            <edomv>
-            </edomv>
-            <edomvd>
-            </edomvd>
-            <edomvds>Producer defined</edomvds>
-          </edom>
-        </attrdomv>
       </attr>
       <attr>
         <attrlabl>depth</attrlabl>
