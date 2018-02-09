@@ -36,7 +36,9 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>Since the late 1950s, the USGS has maintained a long-term glacier mass-balance program at three North American glaciers. Measurements began on South Cascade Glacier, WA in 1958, expanding to Gulkana and Wolverine glaciers, AK in 1966, and later Sperry Glacier, MT in 2005. Additional measurements have been made on Lemon Creek and Taku glaciers, AK to compliment data collected by the Juneau Icefield Research Program (JIRP; Pelto et al., 2013). Direct field measurements of point glaciological data are combined with weather and geodetic data to derive glacier-wide seasonal and annual surface mass balance solutions of each glacier in conventional and reference surface formats (Cogley et al., 2011). Additional details on the calculation of glacier-wide surface mass balance is described in Van Beusekom et al. (2010).</abstract>
+      <abstract>Since the late 1950s, the USGS has maintained a long-term glacier mass-balance program at three North American glaciers. Measurements began on South Cascade Glacier, WA in 1958, expanding to Gulkana and Wolverine glaciers, AK in 1966, and later Sperry Glacier, MT in 2005. Additional measurements have been made on Lemon Creek and Taku glaciers, AK to compliment data collected by the Juneau Icefield Research Program (JIRP; Pelto et al., 2013). Direct field measurements of point glaciological data are combined with weather and geodetic data to derive glacier-wide seasonal and annual surface mass balance solutions of each glacier in conventional and reference surface formats (Cogley et al., 2011). Additional details on the calculation of glacier-wide surface mass balance is described in Van Beusekom et al. (2010).
+
+ADD SEVERAL SENTENCVE DESCRIPTIOn Point data consists of blah blah snowpits blah...</abstract>
       <purpose>This collection of data is used to quantitatively record changes in mass at specified glaciers over the period of record. Although this data was primarily collected for the purpose of mass balance, there are many other potential uses for this data, including ecological assessments, remote sensing validation, or water resource applications. Data is included as available, though the history of the project. Additional older, analog records may be available via digitized scans of field notebooks.</purpose>
       <supplinf>This collection of data is composed of the varied datasets used by the USGS Benchmark Glacier program to measure seasonal and annual mass balance. Products within the release range from raw field data to processed glacier-wide mass balance measurements. </supplinf>
     </descript>
@@ -95,10 +97,9 @@
         <themekt>USGS Thesaurus</themekt>
         <themekey>glaciology</themekey>
         <themekey>glaciation</themekey>
-        <themekey>snowfall measurement</themekey>
-        <themekey>precipitation measurement</themekey>
         <themekey>snow and ice cover</themekey>
-        <themekey>glaciers</themekey>
+        <themekey>precipitation (atmospheric)</themekey>
+        <themekey>field inventory and monitoring</themekey>
       </theme>
       <place>
         <placekt>USGS Geographic Names Information System</placekt>
@@ -141,6 +142,14 @@
         <onlink>https://www2.usgs.gov/climate_landuse/clu_rd/glacierstudies/</onlink>
       </citeinfo>
     </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>oneil</origin>
+        <pubdate>Unknown</pubdate>
+        <title>Interpreted data</title>
+        <onlink>doi</onlink>
+      </citeinfo>
+    </crossref>
   </idinfo>
   <dataqual>
     <attracc>
@@ -168,7 +177,9 @@ Interpreted data, including calculated glacier-wide mass balance, daily weather 
 
 Point raw glaciological data, including snow density, ablation stake, and snow depth measurements are released in Baker (2018), at https://doi.org/10.5066/XXXXXXXXXX.
 
-Geodetic data, and raw, sub-daily weather data will be included in future releases.</eaover>
+Geodetic data, and raw, sub-daily weather data will be included in future releases.
+
+MOVE data citation to cross referece . Move descriptioni to abastract or supplemental.</eaover>
       <eadetcit>Cogley, J. G., Hock, R., Rasmussen, L. A., Arendt, A. A., Bauder, A., Braithwaite, R. J., et al. (2011). Glossary of Glacier Mass Balance and Related Terms. IHP-VII Technical Documents in Hydrology, 86.
 
 O’Neel, S., Hood, E., Arendt, A., and Sass, L., 2014, Assessing streamflow sensitivity to variations in glacier mass balance: Climatic Change, v. 123, no. 2, p. 1–13.

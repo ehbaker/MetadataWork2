@@ -31,8 +31,12 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>Since the late 1950s, the USGS has maintained a long-term glacier mass-balance program at three North American glaciers. Measurements began on South Cascade Glacier, WA in 1958, expanding to Gulkana and Wolverine glaciers, AK in 1966, and later Sperry Glacier, MT in 2005. Additional measurements have been made on Lemon Creek and Taku glaciers, AK to compliment data collected by the Juneau Icefield Research Program (JIRP; Pelto et al., 2013). Direct field measurements of point glaciological data are combined with weather and geodetic data to derive glacier-wide seasonal and annual surface mass balance solutions of each glacier in conventional and reference surface formats (Cogley et al., 2011). Additional details on the calculation of glacier-wide surface mass balance is described in Van Beusekom et al. (2010).</abstract>
-      <purpose>This collection of data is used to quantitatively record changes in mass at specified glaciers over the period of record. Although this data was primarily collected for the purpose of mass balance, there are many other potential uses for this data, including ecological assessments, remote sensing validation, or water resource applications. Data is included as available, though the history of the project. Additional older, analog records may be available via digitized scans of field notebooks.</purpose>
+      <abstract>Since the late 1950s, the USGS has maintained a long-term glacier mass-balance program at three North American glaciers. Measurements began on South Cascade Glacier, WA in 1958, expanding to Gulkana and Wolverine glaciers, AK in 1966, and later Sperry Glacier, MT in 2005. Additional measurements have been made on Lemon Creek and Taku glaciers, AK to compliment data collected by the Juneau Icefield Research Program (JIRP; Pelto et al., 2013). Direct field measurements of point glaciological data are combined with weather and geodetic data to derive glacier-wide seasonal and annual surface mass balance solutions of each glacier in conventional and reference surface formats (Cogley et al., 2011). Additional details on the calculation of glacier-wide surface mass balance is described in Van Beusekom et al. (2010).
+
+Discusss pt data</abstract>
+      <purpose>This collection of data is used to quantitatively record changes in mass at specified glaciers over the period of record. Although this data was primarily collected for the purpose of mass balance, there are many other potential uses for this data, including ecological assessments, remote sensing validation, or water resource applications. Data is included as available, though the history of the project. Additional older, analog records may be available via digitized scans of field notebooks.
+
+discuss purpose of pt data.</purpose>
       <supplinf>This data is used to calculate seasonal glacier-wide mass balances, as released in O'Neel et. al (2016): https://doi.org/10.5066/F7HD7SRF.</supplinf>
     </descript>
     <timeperd>
@@ -90,10 +94,9 @@
         <themekt>USGS Thesaurus</themekt>
         <themekey>glaciology</themekey>
         <themekey>glaciation</themekey>
-        <themekey>snowfall measurement</themekey>
-        <themekey>precipitation measurement</themekey>
         <themekey>snow and ice cover</themekey>
-        <themekey>glaciers</themekey>
+        <themekey>precipitation (atmospheric)</themekey>
+        <themekey>field inventory and monitoring</themekey>
       </theme>
       <place>
         <placekt>USGS Geographic Names Information System</placekt>
@@ -132,7 +135,6 @@
         <pubdate>20180101</pubdate>
         <title>Alaska Benchmark Glacier Mass Balance Website</title>
         <geoform>website</geoform>
-        <othercit>Baker, E. H., Sass, L. C., McNeil, C. J., O'Neel, S., 2018, USGS Benchmark Glacier Mass Balance and Project Data: 1966-2016: U.S. Geological Survey data release, https://doi.org/10.5066/xxxxxxx</othercit>
         <onlink>https://www2.usgs.gov/climate_landuse/clu_rd/glacierstudies/</onlink>
       </citeinfo>
     </crossref>
@@ -162,7 +164,7 @@ Samples of snow and ice have been taken with a variety of samplers through the h
       </procstep>
       <procstep>
         <procdesc>Snowdepth:
-Snowd depth is measured by probing undisturbed snow near an ablation stake, or measured in a snow pit or snow core where ice is reached. Strike of the probe against the ice surface can generally be felt. These depths should be used with some caution, and in conjunction with snow depths measured at ablation stakes, as ice lenses within the snowpack may occasionally be mistaken for the glacier surface. In a pit or snow core, the glacier surface is obvious.</procdesc>
+Snow depth is measured by probing undisturbed snow near an ablation stake, or measured in a snow pit or snow core where ice is reached. Strike of the probe against the ice surface can generally be felt. These depths should be used with some caution, and in conjunction with snow depths measured at ablation stakes, as ice lenses within the snowpack may occasionally be mistaken for the glacier surface. In a pit or snow core, the glacier surface is obvious.</procdesc>
         <srcused>Ostream, G., and M. Brugman (1991), Glacier Mass-Balance Measurements: A Manual for Field and Office Work, Saskatoon, Saskatchewan.</srcused>
         <procdate>2017</procdate>
       </procstep>
@@ -185,6 +187,12 @@ Metal stakes are installed vertically into the glacier surface at index sites wi
         <longres>0.000001</longres>
         <geogunit>Decimal degrees</geogunit>
       </geograph>
+      <geodetic>
+        <horizdn>World Geodetic System of 1984</horizdn>
+        <ellips>World Geodetic System of 1984</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
     </horizsys>
   </spref>
   <eainfo>
@@ -533,7 +541,9 @@ snowdepth folder:
 All years and sites combined into single file.
 
 stake folder:
-All stakes that exist at a single index site are combined into a single file. These are named as Glacier_IndexSiteName_raw_stake_data.csv.</eaover>
+All stakes that exist at a single index site are combined into a single file. These are named as Glacier_IndexSiteName_raw_stake_data.csv.
+
+MOVE ABSTRACT PORTION TO THE ABSTRACT SECTION</eaover>
       <eadetcit>Ostream, G., and M. Brugman (1991), Glacier Mass-Balance Measurements: A Manual for Field and Office Work, Saskatoon, Saskatchewan.</eadetcit>
     </overview>
   </eainfo>
