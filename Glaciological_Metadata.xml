@@ -31,13 +31,26 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>Since the late 1950s, the USGS has maintained a long-term glacier mass-balance program at three North American glaciers. Measurements began on South Cascade Glacier, WA in 1958, expanding to Gulkana and Wolverine glaciers, AK in 1966, and later Sperry Glacier, MT in 2005. Additional measurements have been made on Lemon Creek and Taku glaciers, AK to compliment data collected by the Juneau Icefield Research Program (JIRP; Pelto et al., 2013). Direct field measurements of point glaciological data are combined with weather and geodetic data to derive glacier-wide seasonal and annual surface mass balance solutions of each glacier in conventional and reference surface formats (Cogley et al., 2011). Additional details on the calculation of glacier-wide surface mass balance is described in Van Beusekom et al. (2010).
-
-Discusss pt data</abstract>
+      <abstract>Since the late 1950s, the USGS has maintained a long-term glacier mass-balance program at three North American glaciers. Measurements began on South Cascade Glacier, WA in 1958, expanding to Gulkana and Wolverine glaciers, AK in 1966, and later Sperry Glacier, MT in 2005. Additional measurements have been made on Lemon Creek and Taku glaciers, AK to compliment data collected by the Juneau Icefield Research Program (JIRP; Pelto et al., 2013). Direct field measurements of point glaciological data are combined with weather and geodetic data to derive glacier-wide seasonal and annual surface mass balance solutions of each glacier in conventional and reference surface formats (Cogley et al., 2011). Additional details on the calculation of glacier-wide surface mass balance are described in Van Beusekom et al. (2010).
+      
+ This dataset contains point raw glaciological field data. Snow pit and snow core data gives detailed information on snow density through the measured snow column. Snow depth measurements are collected via snow probe and in some snow pits or snow cores that extend the full depth of the snowpack to the glacier's surface. Ablation stakes allow point measurement of both snow depth and snow melt against the reference of the labeled stake. Draw wires provide additional measurements of snow and ice melt, against the invariant reference of the labeled wire. It is used to calculate point mass balance, or the mass balance at a specified location on the glacier.
+      </abstract>
       <purpose>This collection of data is used to quantitatively record changes in mass at specified glaciers over the period of record. Although this data was primarily collected for the purpose of mass balance, there are many other potential uses for this data, including ecological assessments, remote sensing validation, or water resource applications. Data is included as available, though the history of the project. Additional older, analog records may be available via digitized scans of field notebooks.
+	  
+In the USGS Benchmark Glacier program, point raw glaciological data is used to calculate point mass balance for the long-term site at which the data is collected. The resulting point mass balance measurements are then used as a input to calculate glacier-wide mass balance, at both annual and sub-annual timescales.
+</purpose>
+      <supplinf>Files are named according to the following conventions:
+pitcore folder:
+Each pit or pit/core combination measurement is presented as a separate csv. They are named as
+Glacier_YYYY_MM_DD_TypeOfMeasurement (pit or core or combination)_IndexSiteName.csv
 
-discuss purpose of pt data.</purpose>
-      <supplinf>This data is used to calculate seasonal glacier-wide mass balances, as released in O'Neel et. al (2016): https://doi.org/10.5066/F7HD7SRF.</supplinf>
+snowdepth folder:
+All years and sites combined into single file.
+
+stake folder:
+All stakes that exist at a single index site are combined into a single file. These are named as Glacier_IndexSiteName_raw_stake_data.csv.
+
+This data is used to calculate seasonal glacier-wide mass balances, as released in O'Neel et. al (2016): https://doi.org/10.5066/F7HD7SRF.</supplinf>
     </descript>
     <timeperd>
       <timeinfo>
@@ -531,19 +544,8 @@ This file gives the locations of glaciological sites on each glacier. Snow pits 
       </attr>
     </detailed>
     <overview>
-      <eaover>This dataset contains point raw glaciological field data. Snow pit and snow core data gives detailed information on snow density through the measured snow column. Snow depth measurements are collected via snow probe and in some snow pits or snow cores that extend the full depth of the snowpack to the glacier's surface. Ablation stakes allow point measurement of both snow depth and snow melt against the reference of the labeled stake. Draw wires provide additional measurements of snow and ice melt, against the invariant reference of the labeled wire.
-Files are named according to the following conventions:
-pitcore folder:
-Each pit or pit/core combination measurement is presented as a separate csv. They are named as
-Glacier_YYYY_MM_DD_TypeOfMeasurement (pit or core or combination)_IndexSiteName.csv
-
-snowdepth folder:
-All years and sites combined into single file.
-
-stake folder:
-All stakes that exist at a single index site are combined into a single file. These are named as Glacier_IndexSiteName_raw_stake_data.csv.
-
-MOVE ABSTRACT PORTION TO THE ABSTRACT SECTION</eaover>
+      <eaover>
+      </eaover>
       <eadetcit>Ostream, G., and M. Brugman (1991), Glacier Mass-Balance Measurements: A Manual for Field and Office Work, Saskatoon, Saskatchewan.</eadetcit>
     </overview>
   </eainfo>
