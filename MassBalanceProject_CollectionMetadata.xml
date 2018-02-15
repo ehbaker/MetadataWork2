@@ -113,7 +113,7 @@ Mass balance is calculated at both a seasonal and annual time-step at each glaci
       </place>
     </keywords>
     <accconst>none</accconst>
-    <useconst>It is requested that the authors and the USGS Alaska Science Center be cited for any subsequent publications referencing this dataset. It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data in order to evaluate data set limitations, restrictions and reccommended uses. When appropriate, please consider co-authorship with the authors of this data.</useconst>
+    <useconst>It is requested that the authors and the USGS Alaska Science Center be cited for any subsequent publications referencing this dataset. It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data in order to evaluate data set limitations, restrictions and recommended uses. When appropriate, please consider co-authorship with the authors of this data.</useconst>
     <ptcontac>
       <cntinfo>
         <cntorgp>
@@ -139,7 +139,7 @@ Mass balance is calculated at both a seasonal and annual time-step at each glaci
         <pubdate>20180101</pubdate>
         <title>Alaska Benchmark Glacier Mass Balance Website</title>
         <geoform>website</geoform>
-        <othercit>Baker, E. H., Sass, L. C., McNeil, C. J., O'Neel, S. , 2018, USGS Benchmark Glacier Mass Balance and Project Data: 1966-2016: U.S. Geological Survey data release, https://doi.org/10.5066/xxxxxxx</othercit>
+        <othercit>Baker, E. H., Sass, L. C., McNeil, C. J., O'Neel, S., 2018, USGS Benchmark Glacier Mass Balance and Project Data: 1966-2016: U.S. Geological Survey data release, https://doi.org/10.5066/xxxxxxx</othercit>
         <onlink>https://www2.usgs.gov/climate_landuse/clu_rd/glacierstudies/</onlink>
       </citeinfo>
     </crossref>
@@ -186,8 +186,7 @@ Mass balance is calculated at both a seasonal and annual time-step at each glaci
   </dataqual>
   <eainfo>
     <overview>
-      <eaover>
-      </eaover>
+      <eaover>Mass balance is calculated from direct field measurements in combination with weather data and imagery analyses. Mass balance is calculated at both a seasonal and annual time-step at each glacier in both a conventional and reference surface format (Cogley and others, 2011). The analysis framework (Van Beusekom and others, 2010; O’Neel and others, 2014) is identical at each glacier to enable cross-comparison between output time series. Vocabulary used follows Cogley and others (2011) Glossary of glacier mass balance.</eaover>
       <eadetcit>Cogley, J. G., Hock, R., Rasmussen, L. A., Arendt, A. A., Bauder, A., Braithwaite, R. J., et al. (2011). Glossary of Glacier Mass Balance and Related Terms. IHP-VII Technical Documents in Hydrology, 86.
 
 O’Neel, S., Hood, E., Arendt, A., and Sass, L., 2014, Assessing streamflow sensitivity to variations in glacier mass balance: Climatic Change, v. 123, no. 2, p. 1–13.
