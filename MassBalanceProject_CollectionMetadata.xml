@@ -191,7 +191,7 @@ Mass balance is calculated at both a seasonal and annual time-step at each glaci
   </dataqual>
   <eainfo>
     <overview>
-      <eaover>Mass balance is calculated from direct field measurements in combination with weather data and imagery analyses. Mass balance is calculated at both a seasonal and annual time-step at each glacier in both a conventional and reference surface format (Cogley and others, 2011). The analysis framework (Van Beusekom and others, 2010; O’Neel and others, 2014) is identical at each glacier to enable cross-comparison between output time series. Vocabulary used follows Cogley and others (2011) Glossary of glacier mass balance.</eaover>
+      <eaover>Collection of glacier mass balance data</eaover>
       <eadetcit>Cogley, J. G., Hock, R., Rasmussen, L. A., Arendt, A. A., Bauder, A., Braithwaite, R. J., et al. (2011). Glossary of Glacier Mass Balance and Related Terms. IHP-VII Technical Documents in Hydrology, 86.
 
 O’Neel, S., Hood, E., Arendt, A., and Sass, L., 2014, Assessing streamflow sensitivity to variations in glacier mass balance: Climatic Change, v. 123, no. 2, p. 1–13.
