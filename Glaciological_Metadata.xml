@@ -549,11 +549,6 @@ This file gives the locations of glaciological sites on each glacier. Snow pits 
         </attrdomv>
       </attr>
     </detailed>
-    <overview>
-      <eaover>
-      </eaover>
-      <eadetcit>Ostream, G., and M. Brugman (1991), Glacier Mass-Balance Measurements: A Manual for Field and Office Work, Saskatoon, Saskatchewan.</eadetcit>
-    </overview>
   </eainfo>
   <distinfo>
     <distrib>
