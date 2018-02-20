@@ -8,7 +8,7 @@
         <origin>Christopher J. McNeil (ORCID: 0000-0003-4170-0428)</origin>
         <origin>Louis C. Sass (ORCID: 0000-0003-4677-029X)</origin>
         <origin>Shad O'Neel (ORCID: 0000-0002-9185-0144)</origin>
-        <pubdate>20180101</pubdate>
+        <pubdate>20180301</pubdate>
         <title>USGS Benchmark Glacier Mass Balance and Project Data: 1966-2016
 </title>
         <geoform>Web Site</geoform>
@@ -16,8 +16,8 @@
           <pubplace>Anchorage, AK</pubplace>
           <publish>U.S. Geological Survey, Alaska Science Center</publish>
         </pubinfo>
-        <othercit>Baker, E. H., McNeil, C. J., Sass, L. C.,  O'Neel, S., 2018, USGS Benchmark Glacier Mass Balance and Project Data: 1966-2016: U.S. Geological Survey data release, https://doi.org/10.5066/xxxxxxx</othercit>
-        <onlink> https://doi.org/10.5066/xxxxxxx</onlink>
+        <othercit>Baker, E. H., McNeil, C. J., Sass, L. C.,  O'Neel, S. R., 2018, USGS Benchmark Glacier Mass Balance and Project Data: 1966-2016: U.S. Geological Survey data release, https://doi.org/10.5066/F7BG2N8R</othercit>
+        <onlink>https://doi.org/10.5066/F7BG2N8R</onlink>
         <lworkcit>
           <citeinfo>
             <origin>Shad O'Neel (ORCID: 0000-0002-9185-0144)</origin>
@@ -30,6 +30,7 @@
               <pubplace>Anchorage, Alaska</pubplace>
               <publish>U.S. Geological Survey, Alaska Science Center</publish>
             </pubinfo>
+            <othercit>Alaska Science Center project information website.</othercit>
             <onlink>http://alaska.usgs.gov/portal/project.php?project_id=18</onlink>
           </citeinfo>
         </lworkcit>
@@ -69,7 +70,7 @@ Mass balance is calculated at both a seasonal and annual time-step at each glaci
         <themekt>ISO 19115 Topic Category</themekt>
         <themekey>geoscientificInformation</themekey>
         <themekey>boundaries</themekey>
-        <themekey>climateologyMeteorologyAtmosphere</themekey>
+        <themekey>climatologyMeteorologyAtmosphere</themekey>
         <themekey>elevation</themekey>
         <themekey>environment</themekey>
       </theme>
@@ -139,8 +140,12 @@ Mass balance is calculated at both a seasonal and annual time-step at each glaci
         <pubdate>20180101</pubdate>
         <title>Alaska Benchmark Glacier Mass Balance Website</title>
         <geoform>website</geoform>
-        <othercit>Baker, E. H., Sass, L. C., McNeil, C. J., O'Neel, S., 2018, USGS Benchmark Glacier Mass Balance and Project Data: 1966-2016: U.S. Geological Survey data release, https://doi.org/10.5066/xxxxxxx</othercit>
-        <onlink>https://www2.usgs.gov/climate_landuse/clu_rd/glacierstudies/</onlink>
+        <pubinfo>
+          <pubplace>on line</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>U.S. Geological Survey Benchmark Glacier web page.</othercit>
+        <onlink>https://www2.usgs.gov/climate_landuse/clu_rd/glacierstudies/benchmarkGlaciers.asp</onlink>
       </citeinfo>
     </crossref>
     <crossref>
@@ -149,7 +154,7 @@ Mass balance is calculated at both a seasonal and annual time-step at each glaci
         <origin>Louis C. Sass (ORCID: 0000-0003-4677-029X)</origin>
         <origin>Christopher J. McNeil (ORCID: 0000-0003-4170-0428)</origin>
         <origin>Daniel McGrath (ORCID: 0000-0002-9462-6842)</origin>
-        <pubdate>2017</pubdate>
+        <pubdate>201708</pubdate>
         <title>Glacier-Wide Mass Balance and Input Data: Alaska Benchmark Glaciers, 1966-2016 (ver. 2.0, August 2017): U.S. Geological Survey data release</title>
         <edition>2.0</edition>
         <geoform>tabular digital data</geoform>
@@ -212,7 +217,7 @@ Van Beusekom, A.E., O’Neel, S., March, R.S., Sass, L.C., and Cox, L.H., 2010, 
         <cntemail>ascweb@usgs.gov</cntemail>
       </cntinfo>
     </distrib>
-    <resdesc>Authoritative source for access to data in the collection.</resdesc>
+    <resdesc>Authoritative source for access to data in the collection.This resource is a download website from which data can be accessed based on data type, glacier and vintage.</resdesc>
     <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.</distliab>
     <stdorder>
       <digform>
@@ -226,7 +231,7 @@ Van Beusekom, A.E., O’Neel, S., March, R.S., Sass, L.C., and Cox, L.H., 2010, 
           <onlinopt>
             <computer>
               <networka>
-                <networkr>https://doi.org/10.5066/xxxxxxxxxxxxx</networkr>
+                <networkr>https://doi.org/10.5066/F7BG2N8R</networkr>
               </networka>
             </computer>
           </onlinopt>
