@@ -41,7 +41,7 @@
 	  
 Mass balance is calculated at both a seasonal and annual time-step at each glacier in both a conventional and reference surface format (Cogley and others, 2011). The analysis framework (Van Beusekom and others, 2010; O’Neel and others, 2014) is identical at each glacier to enable cross-comparison between output time series. Vocabulary used follows Cogley and others (2011) Glossary of glacier mass balance. Mass balance is calculated from direct field measurements of surface mass balance in combination with weather data and imagery analyses.
 </abstract>
-      <purpose>This collection of data is used to quantitatively record changes in mass at specified glaciers over the period of record. Although this data was primarily collected for the purpose of mass balance, there are many other potential uses for this data, including ecological assessments, remote sensing validation, or water resource applications. Data is included as available, though the history of the project. Additional older, analog records may be available via digitized scans of field notebooks.</purpose>
+      <purpose>This collection of data is used to quantitatively record changes in mass at specified glaciers over the period of record. Although these data were primarily collected for the purpose of mass balance, there are many other potential uses, including ecological assessments, remote sensing validation, or water resource applications. Data are included as available, though the history of the project. Additional older, analog records may be available via digitized scans of field notebooks.</purpose>
       <supplinf>This collection of data is composed of the varied datasets used by the USGS Benchmark Glacier program to measure seasonal and annual mass balance. Products within the release range from raw field data to processed glacier-wide mass balance measurements. </supplinf>
     </descript>
     <timeperd>
@@ -114,7 +114,7 @@ Mass balance is calculated at both a seasonal and annual time-step at each glaci
       </place>
     </keywords>
     <accconst>none</accconst>
-    <useconst>It is requested that the authors and the USGS Alaska Science Center be cited for any subsequent publications referencing this dataset. It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data in order to evaluate data set limitations, restrictions and recommended uses. When appropriate, please consider co-authorship with the authors of this data.</useconst>
+    <useconst>It is requested that the authors and the USGS Alaska Science Center be cited for any subsequent publications referencing this dataset. It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data in order to evaluate dataset limitations, restrictions and recommended uses. When appropriate, please consider co-authorship with the authors of these data.</useconst>
     <ptcontac>
       <cntinfo>
         <cntorgp>

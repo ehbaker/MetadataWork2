@@ -39,11 +39,11 @@
     <descript>
       <abstract>Since the late 1950s, the USGS has maintained a long-term glacier mass-balance program at three North American glaciers. Measurements began on South Cascade Glacier, WA in 1958, expanding to Gulkana and Wolverine glaciers, AK in 1966, and later Sperry Glacier, MT in 2005. Additional measurements have been made on Lemon Creek and Taku glaciers, AK to compliment data collected by the Juneau Icefield Research Program (JIRP; Pelto et al., 2013). Direct field measurements of point glaciological data are combined with weather and geodetic data to derive glacier-wide seasonal and annual surface mass balance solutions of each glacier in conventional and reference surface formats (Cogley et al., 2011). Additional details on the calculation of glacier-wide surface mass balance are described in Van Beusekom et al. (2010).
       
- This dataset contains point raw glaciological field data. Snow pit and snow core data gives detailed information on snow density through the measured snow column. Snow depth measurements are collected via snow probe and in some snow pits or snow cores that extend the full depth of the snowpack to the glacier's surface. Ablation stakes allow point measurement of both snow depth and snow melt against the reference of the labeled stake. Draw wires provide additional measurements of snow and ice melt, against the invariant reference of the labeled wire. It is used to calculate point mass balance, or the mass balance at a specified location on the glacier.
+ This dataset contains point raw glaciological field data. Snow pit and snow core data give detailed information on snow density through the measured snow column. Snow depth measurements are collected via snow probe and in some snow pits or snow cores that extend the full depth of the snowpack to the glacier's surface. Ablation stakes allow point measurement of both snow depth and snow melt against the reference of the labeled stake. Draw wires provide additional measurements of snow and ice melt, against the invariant reference of the labeled wire. It is used to calculate point mass balance, or the mass balance at a specified location on the glacier.
       </abstract>
-      <purpose>This collection of data is used to quantitatively record changes in mass at specified glaciers over the period of record. Although this data was primarily collected for the purpose of mass balance, there are many other potential uses for this data, including ecological assessments, remote sensing validation, or water resource applications. Data is included as available, though the history of the project. Additional older, analog records may be available via digitized scans of field notebooks.
+      <purpose>This collection of data is used to quantitatively record changes in mass at specified glaciers over the period of record. Although these data were primarily collected for the purpose of mass balance, there are many other potential uses for this data, including ecological assessments, remote sensing validation, or water resource applications. Data are included as available, though the history of the project. Additional older, analog records may be available via digitized scans of field notebooks.
 	  
-In the USGS Benchmark Glacier program, point raw glaciological data is used to calculate point mass balance for the long-term site at which the data is collected. The resulting point mass balance measurements are then used as an input to calculate glacier-wide mass balance, at both annual and sub-annual timescales.
+In the USGS Benchmark Glacier program, point raw glaciological data are used to calculate point mass balance for the long-term site at which the data are collected. The resulting point mass balance measurements are then used as an input to calculate glacier-wide mass balance, at both annual and sub-annual timescales.
 </purpose>
       <supplinf>Files are named according to the following conventions:
 pitcore folder:
@@ -56,7 +56,7 @@ All years and sites combined into single file.
 stake folder:
 All stakes that exist at a single index site are combined into a single file. These are named as Glacier_IndexSiteName_raw_stake_data.csv.
 
-This data is used to calculate seasonal glacier-wide mass balances, as released in O'Neel et. al (2016): https://doi.org/10.5066/F7HD7SRF.</supplinf>
+These data are used to calculate seasonal glacier-wide mass balances, as released in O'Neel et. al (2016): https://doi.org/10.5066/F7HD7SRF.</supplinf>
     </descript>
     <timeperd>
       <timeinfo>
@@ -128,7 +128,7 @@ This data is used to calculate seasonal glacier-wide mass balances, as released 
       </place>
     </keywords>
     <accconst>none</accconst>
-    <useconst>It is requested that the authors and the USGS Alaska Science Center be cited for any subsequent publications referencing this dataset. It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data in order to evaluate data set limitations, restrictions and recommended uses. When appropriate, please consider co-authorship with the authors of this data.</useconst>
+    <useconst>It is requested that the authors and the USGS Alaska Science Center be cited for any subsequent publications referencing this dataset. It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data in order to evaluate dataset limitations, restrictions and recommended uses. When appropriate, please consider co-authorship with the authors of this data.</useconst>
     <ptcontac>
       <cntinfo>
         <cntorgp>
@@ -166,7 +166,7 @@ Snow accumulation: Primary sources of uncertainty exist from surface roughness, 
 
 Snow and ice melt: Primary sources of uncertainty exist from surface roughness, snow density variability, stake deformation and drilling and discrepancies between various types of observations (probe depths, stake length change and snow pit depth). Nominal uncertainty from these sources is estimated at 0.10 m w.e. (Heinrichs and others, 1995).</attraccr>
     </attracc>
-    <logic>Original data entry sheets have been used extensively in calculating glacier-wide mass balance. Data has been QA/QC'd by hand in relation to use for mass balance calculations. A check has been made on volumes, ensuring that given volumes and agree with recorded core length and diameters. Ablation stake measurements have been checked to ensure that length in ice and length out of ice sums to total stake length, ensuring accurate data entry in this parameter. Extensive spot-checking has been completed to confirm that transformation in format from data-entry to release has not introduced errors.</logic>
+    <logic>Original data entry sheets have been used extensively in calculating glacier-wide mass balance. Data have been QA/QC'd by hand in relation to use for mass balance calculations. A check has been made on volumes, ensuring that given volumes and agree with recorded core length and diameters. Ablation stake measurements have been checked to ensure that length in ice and length out of ice sums to total stake length, ensuring accurate data entry in this parameter. Extensive spot-checking has been completed to confirm that transformation in format from data-entry to release has not introduced errors.</logic>
     <complete>Data set is considered complete for the information presented, as described in the abstract. We include all currently digitized project data; additional information may be available via digital scans of field notebooks. All data recorded in snow pits, at ablation stakes, and probed snow depths as a part of mass balance fieldwork are reported here.</complete>
     <posacc>
       <horizpa>
